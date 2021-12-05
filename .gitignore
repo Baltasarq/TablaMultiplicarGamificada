@@ -1,5 +1,13 @@
-# Object file
-*.o
+# Backup files
+*.~*
+*.bak
 
-# Ada Library Information
-*.ali
+# Log files
+*.log
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json

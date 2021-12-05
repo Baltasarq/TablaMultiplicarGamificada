@@ -1,0 +1,73 @@
+<!-- Multiplicar (c) 2021 Baltasar MIT License baltasarq at gmail.com -->
+
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Tabla de multiplicar gamificada</title>
+        <script src="multiplication_table.js"></script>
+        <link rel="stylesheet" href="multiplication_table.css">
+    </head>
+    <body>
+        <div id="dvStart" style="display: block;">
+            <h1>Prepara el juego</h1>
+            <form id="frmStart" onsubmit="play(); return false;">
+                <table id="tblQuestions" width="60%">
+                    <tr>
+                        <td>
+                            <label for="edInfLimit">Límite inferior</label>
+                        </td>
+                        <td>
+                            <input type="number" id="edInfLimit"
+                            min="0" value="0" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="edSupLimit">Límite superior</label>
+                        </td>
+                        <td>
+                            <input type="number" id="edSupLimit"
+                            min="0" value="10" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="edNum">Número de preguntas por tabla</label>
+                        </td>
+                        <td>
+                            <input type="number" id="edNum" min="1" value="10" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <input type="submit" id="btStart"
+                                   value="Start" />
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
+        <div id="dvGame" style="display: none;">
+
+        </div>
+
+        <div id="dvResult" style="display: none;">
+
+        </div>
+
+        <div id="dvResults" style="display: none;">
+
+        </div>
+
+        <script>
+            window.onload = function() {
+                restart();
+            }
+        </script>
+    </body>
+</html>

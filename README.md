@@ -1,2 +1,3 @@
-# TablaMultiplicarGamificada
-A game to ease learning the production tables.
+# Tabla de multiplicar gamificada
+
+A game to ease the learning of the multiplication tables.

@@ -1,0 +1,32 @@
+/* Multiplication table (c) 2021 Baltasar MIT License <baltasarq@gmail.com> */
+
+body {
+    background-color: antiquewhite;
+    color: navy;
+}
+
+#frmStart {
+    margin: 10px;
+    width: 60%;
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#dvStart {
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#dvGame, #dvResults {
+    height: 80%;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#tblResults {
+    align-self: center;    
+}
